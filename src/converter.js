@@ -34,6 +34,6 @@ function convertImagesToWebp(directory) {
 }
 
 //change me
-const startDirectory = "./";
+const startDirectory = "/home/rafal/repo/img-converter/src/convert-directory";
 
 convertImagesToWebp(startDirectory);
