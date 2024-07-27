@@ -52,14 +52,16 @@ const convertToWebp = (file) => {
       <img :src="imageUrl" alt="Uploaded Image">
     </div>
     <a v-if="imageUrl" :href="imageUrl" download="converted-image.webp">
-      <button>Download Image</button>
+      <button class="px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+        Download Image
+      </button>
     </a>
   </section>
 </template>
 
 <style scoped>
 img {
-  max-width: 100%;
+  max-width: 500px;
   height: auto;
 }
 </style>
